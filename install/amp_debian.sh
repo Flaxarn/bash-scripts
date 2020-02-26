@@ -21,7 +21,7 @@ Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 
 # GENERATE PASSOWRDS
-# sudo apt -qy install openssl # openssl used for generating a truly random password
+sudo apt -qy install openssl # openssl used for generating a truly random password
 PASS_MYSQL_ROOT=`openssl rand -base64 12` # this you need to save 
 PASS_PHPMYADMIN_APP=`openssl rand -base64 12` # can be random, won't be used again
 PASS_PHPMYADMIN_ROOT="${PASS_MYSQL_ROOT}" # Your MySQL root pass
