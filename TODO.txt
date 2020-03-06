@@ -1,0 +1,24 @@
+bash
+	Installationsscript
+		update/upgrade
+		AMP ( Apache, MySQL(mariadb), PHP )
+		python
+
+	python
+		installationsscript
+			requirements.txt + install
+			venv + activate/deactivate + start/stop
+	wordpress
+		rättighetsscript
+mallar
+	projectmall
+		.gitignore
+		requirements.txt
+		readme.md
+		TODO.md
+		mappar
+		__innit__.py
+		projekt.py med färdiga imports och __main__.py	
+Installationsmanualer
+	vs-code extensions
+	
